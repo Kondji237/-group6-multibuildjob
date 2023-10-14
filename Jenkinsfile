@@ -17,7 +17,7 @@ pipeline{
 			stage('Ngantcha'){
 				steps{
 					sh 'df -h'
-					sh 'free -m'
+					sh 'free -g'
 				}
 			}
 			}
